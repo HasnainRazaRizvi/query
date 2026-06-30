@@ -1,0 +1,33 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "feature/dataloader-example",
+    "fix/11131",
+    "fix/svelte-query-devtools-reactive-options",
+    "main",
+    "origin",
+    "solid-query-v6-pre",
+    "taren/framework-adapter",
+    "test/lit-query-sleep-helper"
+  ],
+  "parent": {
+    "feature/dataloader-example": "main",
+    "fix/11131": "main",
+    "fix/svelte-query-devtools-reactive-options": "main",
+    "main": null,
+    "origin": "main",
+    "solid-query-v6-pre": "main",
+    "taren/framework-adapter": "main",
+    "test/lit-query-sleep-helper": "main"
+  },
+  "order": [
+    "main",
+    "feature/dataloader-example",
+    "fix/11131",
+    "fix/svelte-query-devtools-reactive-options",
+    "origin",
+    "solid-query-v6-pre",
+    "taren/framework-adapter",
+    "test/lit-query-sleep-helper"
+  ]
+}
