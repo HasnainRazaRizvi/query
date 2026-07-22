@@ -1,6 +1,6 @@
 {
   "name": "@tanstack/solid-query-devtools",
-  "version": "6.0.0-beta.5",
+  "version": "6.0.0-beta.6",
   "description": "Developer tools to interact with and visualize the TanStack/solid-query Query cache",
   "author": "tannerlinsley",
   "license": "MIT",
@@ -29,8 +29,8 @@
     "test:build": "publint --strict && attw --pack",
     "test:lib": "vitest --retry=3",
     "test:lib:dev": "pnpm run test:lib --watch",
-    "build": "tsup --tsconfig tsconfig.prod.json",
-    "build:dev": "tsup --watch"
+    "build": "node init && tsup --tsconfig tsconfig.prod.json",
+    "build:dev": "node init && tsup --watch"
   },
   "type": "module",
   "main": "./build/index.cjs",

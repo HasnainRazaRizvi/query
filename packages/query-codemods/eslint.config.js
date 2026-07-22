@@ -15,4 +15,4 @@ export default [
       'sort-imports': 'off',
     },
   },
-]
+];

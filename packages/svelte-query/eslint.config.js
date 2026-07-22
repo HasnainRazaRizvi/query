@@ -25,4 +25,4 @@ export default [
       'svelte/valid-compile': 'off',
     },
   },
-]
+];
