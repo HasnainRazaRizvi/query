@@ -19,4 +19,4 @@ export default [
       'react-hooks/incompatible-library': 'error',
     },
   },
-]
+];

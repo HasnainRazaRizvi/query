@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "postinstall": "vue-demi-switch 2.7",
-    "dev": "vite",
+    "dev": "node init && vite",
     "_build": "vite build",
     "_build:dev": "vite build -m development",
     "_serve": "vite preview"

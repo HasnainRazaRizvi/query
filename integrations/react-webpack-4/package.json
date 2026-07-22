@@ -2,7 +2,7 @@
   "name": "react-webpack-4",
   "private": true,
   "scripts": {
-    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider webpack --mode production"
+    "build": "node init && cross-env NODE_OPTIONS=--openssl-legacy-provider webpack --mode production"
   },
   "dependencies": {
     "@tanstack/react-query": "workspace:*",
