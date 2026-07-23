@@ -2,7 +2,7 @@
   "name": "@tanstack/query-example-vue-nuxt3",
   "private": true,
   "scripts": {
-    "dev": "nuxi dev",
+    "dev": "node init && nuxi dev",
     "_build": "nuxi build",
     "_start": "node .output/server/index.mjs"
   },
