@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "postinstall": "vue-demi-switch 2",
-    "dev": "vite",
+    "dev": "node init && vite",
     "_build": "vite build",
     "_preview": "vite preview"
   },

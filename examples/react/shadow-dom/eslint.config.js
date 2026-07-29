@@ -6,4 +6,4 @@ export default [
   ...tanstackConfig,
   ...pluginQuery.configs['flat/recommended'],
   pluginReact.configs.recommended,
-]
+];

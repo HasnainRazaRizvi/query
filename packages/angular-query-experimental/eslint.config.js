@@ -21,4 +21,4 @@ export default [
       '@typescript-eslint/require-await': 'off',
     },
   },
-]
+];

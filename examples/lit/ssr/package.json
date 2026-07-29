@@ -3,8 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node ./scripts/dev.mjs",
-    "build": "tsc --noEmit && vite build"
+    "dev": "node init && node ./scripts/dev.mjs",
+    "build": "node init && tsc --noEmit && vite build"
   },
   "dependencies": {
     "@lit-labs/ssr": "^3.3.0",
