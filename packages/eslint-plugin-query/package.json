@@ -30,7 +30,7 @@
     "test:lib": "vitest",
     "test:lib:dev": "pnpm run test:lib --watch",
     "test:build": "publint --strict && attw --pack",
-    "build": "tsup --tsconfig tsconfig.prod.json"
+    "build": "node init && tsup --tsconfig tsconfig.prod.json"
   },
   "type": "module",
   "types": "build/legacy/index.d.ts",
@@ -69,7 +69,7 @@
   },
   "peerDependencies": {
     "eslint": "^8.57.0 || ^9.0.0 || ^10.0.0",
-    "typescript": "^5.4.0 || ^6.0.0"
+    "typescript": "^5.4.0 || ^6.0.0 || ^7.0.0"
   },
   "peerDependenciesMeta": {
     "typescript": {

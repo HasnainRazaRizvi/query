@@ -3,9 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro check && astro build",
+    "dev": "node init && astro dev",
+    "start": "node init && astro dev",
+    "build": "node init && astro check && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },

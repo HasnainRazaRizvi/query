@@ -2,8 +2,8 @@
   "name": "react-next-15",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build"
+    "dev": "node init && next dev",
+    "build": "node init && next build"
   },
   "dependencies": {
     "@js-temporal/polyfill": "^0.4.4",
